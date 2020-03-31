@@ -1,0 +1,154 @@
+*{
+
+	margin:0;
+
+}
+
+body, html{height:100%;}
+
+body {
+
+	background-color: White;
+
+}
+
+body footer {
+
+	display: flex;
+	justify-content: center;
+	background-color: #f2f2f2;
+	position:absolute;
+	bottom:0;
+	width:100%;
+	height:35px;
+	padding-top: 17px;
+}
+
+nav li {
+
+	list-style: none;
+	display: inline;
+	padding-right: 15px;
+	color: #5f6368;
+
+}
+
+header {
+
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 33px;
+	padding-top: 33px;
+
+}
+
+#searchBar input {
+
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 250px;
+	padding-right: 250px;
+	border-radius: 30px;
+	border: 1px solid #f2f2f2;
+
+}
+
+#searchBar input:hover {
+
+	box-shadow: 0px 1px 8px 0px #5f6368;
+
+}
+
+
+#headMenu {
+
+
+}
+
+#containerCenter {
+
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 11%;
+
+}
+
+#Logo {
+
+	display: flex;
+	justify-content: center;
+
+}
+
+#searchBar {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+
+}
+
+#buttons {
+
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+
+}
+
+#containerBottom ul li {
+
+		display: inline;
+		padding-right: 33px;
+
+}
+
+#containerBottom {
+
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+#containerBottom li {
+
+	color: #5f6368;
+
+}
+
+#main{
+
+}
+
+#leftB {
+
+	margin-right: 320px;
+
+}
+
+#buttons button {
+
+	padding: 10 auto;
+	width: 139px;
+	height: 50px;
+
+	margin-right: 10px;
+
+	border: 15px;
+
+}
+
+nav button {
+
+	padding: 10 auto;
+	width: 100px;
+	height: 35px;
+	background: -moz-linear-gradient(top,#4387fd,#4683ea);
+	color: White;
+	border-radius: 5px;
+
+	border: 15px;
+
+}
